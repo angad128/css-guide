@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Understanding CSS Fixed Positioning</title>
+		<style type="text/css">
+			.common {
+				font-size: 30px;
+				color: white;
+			}
+			.uncle {
+				background-color: gray;
+			}
+
+			.first {
+				background-color: green;
+			}
+			.second {
+				background-color: red;
+				position: fixed;
+			}
+			.third {
+				background-color: blue;
+				height: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- static, absolute , relative , fixed , sticky -->
+		<div class="uncle common">Uncle</div>
+		<div class="parent">
+			<div class="first common">First</div>
+			<div class="second common">Second</div>
+			<div class="third common">Third</div>
+			<div style="height: 1500px;"></div>
+		</div>
+	</body>
+</html>
